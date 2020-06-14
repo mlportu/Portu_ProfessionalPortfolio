@@ -6,6 +6,7 @@
 :root{
     --primary-color:rgb(23,43,176);
     --secondary-color:rgb(233, 237, 240);
+    --tertiary-color:rgb(57,183,212);
 }
 body{
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -75,15 +76,40 @@ header nav ul li a{
 /*Work Grid Style*/
 .work-grid-container{
     display:grid;
-    grid-template-columns:2fr 1fr;
-    grid-template-rows: 2fr 1fr;
-    border: 2px solid var(--primary-color);
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(3,1fr);
 }
 .work-grid-item{
     border: 2px solid var(--primary-color);
     display:flex;
-    align-items: center;
-    justify-content: center;
+    align-items: flex-end;
+    justify-content: flex-start;
+    margin:10px;
+}
+.work-grid-item h4{
+    padding:50px;
+    font-size:28px;
+    color:var(--tertiary-color);
+    background-color:var(--secondary-color);
+}
+.work-grid-item.run-buddy{
+    grid-column:1/ span 2;
+    grid-row: 1/ span 2;
+    background-image: url(../images/run_buddy.png);
+}
+.work-grid-item.scallops{
+    background-image: url(../images/scallops.jpeg);
+    min-height:100px;
+}
+.work-grid-item.weller{
+    background-image: url(../images/weller.jpeg);
+}
+.work-grid-item.forrest{
+    background-image: url(../images/Forrest_Stream.jpeg);
+    min-height:200px;
+}
+.work-grid-item.mustache{
+    background-image: url(../images/Mustache_menu.jpeg);
 }
 
 /*footer style*/
@@ -95,14 +121,12 @@ footer{
 }
 footer nav{
         display:flex;
-        justify-content: space between;
+        justify-content: space-between;
         align-items:center;
 }
 footer nav ul{
     display:flex;
     flex-wrap:wrap;
-    justify-content:space-between;
-    align-items: center;
     list-style:none;
 }
 footer nav ul li a{
