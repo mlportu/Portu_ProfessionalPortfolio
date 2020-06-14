@@ -41,7 +41,7 @@ header nav ul li a{
 }
 /*hero style*/
 .hero{
-    background-image:url(../images/Forrest_Stream.jpeg);
+    background-image:url(../images/Sunset.jpeg);
     background-size:cover;
     display:flex;
     flex-wrap:wrap;
@@ -58,11 +58,27 @@ header nav ul li a{
 /*Content style*/
 .section{
     display:flex;
+    padding:50px 0 0 20px;
 }
 .section-title{
     color:var(--primary-color);
     border-right: 2px solid var(--primary-color);
+    text-align:right;
+    width:20%;
+    padding:10px;
 }
+.section-info{
+    width:75%;
+    padding: 10px 25px;
+}
+.work-grid-container{
+    display:grid;
+    grid-template-columns:repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    border: 2px solid var(--primary-color);
+    
+}
+
 /*footer style*/
 
 footer{
