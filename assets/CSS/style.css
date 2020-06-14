@@ -72,12 +72,18 @@ header nav ul li a{
     width:75%;
     padding: 10px 25px;
 }
+/*Work Grid Style*/
 .work-grid-container{
     display:grid;
-    grid-template-columns:repeat(3, 1fr);
-    grid-template-rows: repeat(3, 1fr);
+    grid-template-columns:2fr 1fr;
+    grid-template-rows: 2fr 1fr;
     border: 2px solid var(--primary-color);
-    
+}
+.work-grid-item{
+    border: 2px solid var(--primary-color);
+    display:flex;
+    align-items: center;
+    justify-content: center;
 }
 
 /*footer style*/
@@ -89,6 +95,7 @@ footer{
 }
 footer nav{
         display:flex;
+        justify-content: space between;
         align-items:center;
 }
 footer nav ul{
