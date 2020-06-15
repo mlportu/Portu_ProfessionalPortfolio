@@ -109,28 +109,28 @@ header nav ul li a{
 .grid-item-text p{
     font-size:14px
 }
-.work-grid-item.run-buddy{
-    grid-column:1/ span 2;
-    grid-row: 1/ span 2;
+.run-buddy{
     background-image: url(../images/run_buddy.png);
     background-size:cover;
+    grid-column: 1/ span 2;
+    grid-row:1/ span 2;
 }
-.work-grid-item.scallops{
+.scallops{
     background-image: url(../images/scallops.jpeg);
     background-size:cover;
     background-repeat:no-repeat;
 }
-.work-grid-item.weller{
+.weller{
     background-image: url(../images/weller.jpeg);
     background-size:cover;
     background-repeat:no-repeat;
 }
-.work-grid-item.forrest{
+.forrest{
     background-image: url(../images/Forrest_Stream.jpeg);
     background-size:cover;
     background-repeat:no-repeat;
 }
-.work-grid-item.blue-angels{
+.blue-angels{
     background-image: url(../images/BlueAnglesNash.png);
     background-size:cover;
     background-repeat:no-repeat;
