@@ -82,6 +82,7 @@ header nav ul li a{
 .section-info{
     width:75%;
     padding: 10px 25px;
+    font-size:22px;
 }
 /*Work Grid Style*/
 .work-grid-container{
@@ -97,7 +98,6 @@ header nav ul li a{
     justify-content:flex-start;
     min-height:200px;
     box-shadow:-5px 5px 15px rgba(252,132,3, 0.5);
-
 }
 .grid-item-text{
     margin: 20px;
@@ -192,7 +192,6 @@ footer nav ul li a{
     .section-info{
         width:90%;
         margin:5px auto;
-        font-size:25px;
     }
     .grid-item-text h4{
         font-size:35px
@@ -201,15 +200,15 @@ footer nav ul li a{
         font-size:20px
     }
     footer nav ul li{
-        font-size:28px;
+        font-size:25px;
     }
     footer nav ul li a{
-        font-size:28px;
+        font-size:25px;
     }
 }
-/*MEDIA QUERY FOR MOBILE PHONES AND SMALLER*/
-@media screen and (max-width:575px) {
-    .section-info{
+/*MEDIA QUERY TABLETS AND SMALLER*/
+@media screen and (max-width:768px) {
+    .section-info p{
         font-size:15px;
     }
 }
