@@ -4,9 +4,9 @@
     box-sizing: border-box;
 }
 :root{
-    --primary-color:rgb(23,43,176);
+    --primary-color:rgb(9,20,92);
     --secondary-color:rgb(233, 237, 240);
-    --tertiary-color:rgb(57,183,212);
+    --tertiary-color:rgb(252,132,3);
 }
 body{
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -23,6 +23,7 @@ header{
 header h1{
     font-size:54px;
     color:var(--primary-color);
+    text-shadow: -5px 5px 10px rgba(252,132,3, 0.5);
 }
 header nav{
     display:flex;
@@ -43,7 +44,7 @@ header nav ul li a{
 }
 /*hero style*/
 .hero{
-    background-image:url(../images/Sunset.jpeg);
+    background-image:url(../images/lake_sunset.jpeg);
     background-size:cover;
     display:flex;
     width:100%;
@@ -71,6 +72,7 @@ header nav ul li a{
     width:20%;
     padding:0 10px;
     font-size:50px;
+    text-shadow:-5px 5px 10px rgba(252,132,3, 0.5);
 }
 .section-title img{
     width:100%;
@@ -92,13 +94,15 @@ header nav ul li a{
     border: 2px solid var(--primary-color);
     display:flex;
     align-items: flex-end;
-    justify-content: flex-start;
     margin:10px;
-    justify-content:flex-end;
+    justify-content:flex-start;
+    min-height:200px;
+    box-shadow:-5px 5px 15px rgba(252,132,3, 0.5);
+
 }
 .grid-item-text{
     margin: 20px;
-    padding:10px 20px;
+    padding:5px 10px;
     font-size:20px;
     color:var(--secondary-color);
     background-color:var(--primary-color);
@@ -114,22 +118,22 @@ header nav ul li a{
 }
 .work-grid-item.scallops{
     background-image: url(../images/scallops.jpeg);
-    background-size:contain;
+    background-size:cover;
     background-repeat:no-repeat;
 }
 .work-grid-item.weller{
     background-image: url(../images/weller.jpeg);
-    background-size:contain;
+    background-size:cover;
     background-repeat:no-repeat;
 }
 .work-grid-item.forrest{
     background-image: url(../images/Forrest_Stream.jpeg);
-    background-size:contain;
+    background-size:cover;
     background-repeat:no-repeat;
 }
-.work-grid-item.mustache{
-    background-image: url(../images/Mustache_menu.jpeg);
-    background-size:contain;
+.work-grid-item.blue-angels{
+    background-image: url(../images/BlueAnglesNash.png);
+    background-size:cover;
     background-repeat:no-repeat;
 }
 
@@ -154,7 +158,7 @@ footer nav ul{
 }
 footer nav ul li{
     font-size:20px;
-    border-bottom: 1px solid var(--primary-color);
+    border-bottom: 1px solid var(--tertiary-color);
     margin: 0 30px;
     color:var(--primary-color);
 }
