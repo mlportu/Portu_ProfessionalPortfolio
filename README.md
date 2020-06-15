@@ -10,7 +10,7 @@ Build for Vanderbilt Coding Bootcamp Challenge 2
 * CSS
 
 ## Website
-https://mlportu.github.io/VU_Challenge1_Horiseon/
+https://mlportu.github.io/Portu_ProfessionalPortfolio/
 
 ## Contribution
 Made by Mike Portu
