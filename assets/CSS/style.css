@@ -100,38 +100,38 @@ header nav ul li a{
     box-shadow:-5px 5px 15px rgba(252,132,3, 0.5);
 }
 .grid-item-text{
-    margin: 20px;
+    margin: 15px;
     padding:5px 10px;
-    font-size:20px;
+    font-size:15px;
     color:var(--secondary-color);
     background-color:var(--primary-color);
 }
 .grid-item-text p{
     font-size:14px
 }
-.run-buddy{
-    background-image: url(../images/run_buddy.png);
+#main{
+    background-image: url(../images/doggypedia.png);
     background-size:cover;
     grid-column: 1/ span 2;
     grid-row:1/ span 2;
 }
-.scallops{
+#proj1{
+    background-image: url(../images/run_buddy.png);
+    background-size:cover;
+    background-repeat:no-repeat;
+}
+#proj2{
+    background-image: url(../images/Workday-Scheduler.png);
+    background-size:cover;
+    background-repeat:no-repeat;
+}
+#proj3{
+    background-image: url(../images/Weather-Dashboard.png);
+    background-size:cover;
+    background-repeat:no-repeat;
+}
+#proj4{
     background-image: url(../images/scallops.jpeg);
-    background-size:cover;
-    background-repeat:no-repeat;
-}
-.weller{
-    background-image: url(../images/weller.jpeg);
-    background-size:cover;
-    background-repeat:no-repeat;
-}
-.forrest{
-    background-image: url(../images/Forrest_Stream.jpeg);
-    background-size:cover;
-    background-repeat:no-repeat;
-}
-.blue-angels{
-    background-image: url(../images/BlueAnglesNash.png);
     background-size:cover;
     background-repeat:no-repeat;
 }
