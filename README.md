@@ -8,12 +8,14 @@ Build for Vanderbilt Coding Bootcamp Challenge 2
 ## Built With
 * HTML
 * CSS
+* Javascript
+* Jquery
 
 ## Website
 https://mlportu.github.io/Portu_ProfessionalPortfolio/
 
 ## Screenshot
-https://user-images.githubusercontent.com/65987830/84616976-2b69c900-ae93-11ea-833d-31fd256e49d1.png
+<img src="assets/images/portfolio.png" width="500">
 
 ## Contribution
 Made by Mike Portu
