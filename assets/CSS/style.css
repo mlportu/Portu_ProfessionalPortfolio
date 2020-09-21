@@ -110,13 +110,13 @@ header nav ul li a{
     font-size:14px
 }
 #main{
-    background-image: url(../images/doggypedia.png);
+    background-image: url(../images/healthlog.png);
     background-size:cover;
     grid-column: 1/ span 2;
     grid-row:1/ span 2;
 }
 #proj1{
-    background-image: url(../images/run_buddy.png);
+    background-image: url(../images/doggypedia.png);
     background-size:cover;
     background-repeat:no-repeat;
 }
@@ -131,7 +131,7 @@ header nav ul li a{
     background-repeat:no-repeat;
 }
 #proj4{
-    background-image: url(../images/scallops.jpeg);
+    background-image: url(../images/run_buddy.png);
     background-size:cover;
     background-repeat:no-repeat;
 }
